@@ -12,11 +12,3 @@
 <p align="center">
     Expect frequent breaking changes, because I for the life of me cannot be content with anything I make.
 </p>
-
-<br>
-
-<footer>
-    <p style="font-size: 0.7rem; color:#777; text-align:center;">
-        also this is my first project im putting on github so please be gentle :3
-    </p>
-</footer>
