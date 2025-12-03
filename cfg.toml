@@ -1,0 +1,30 @@
+# cfg.toml - Game Configurations
+# :
+# fill this out if you (for some reason) want to
+# make a game in my dumb engine i made with
+# 3 days of love2D experience.
+
+[game]
+title   = "Example Game"
+version = "0.1.0"  # engine only understands semantic versioning
+
+[window]
+width      = 1280  # if not fullscreen, how wide is the window?
+height     = 720   # if not fullscreen, how tall is the window?
+fullscreen = false # is the window fullscreen?
+vsync      = true  # do we sync to the monitor's refresh rate?
+resizable  = false # can the window be resized?
+scale      = 1     # UI scale factor
+
+[audio]
+# All volume levels range from 0.0 (mute) to 1.0 (full volume)
+master = 1.0  # master/overall volume level
+music  = 1.0  # music volume level
+effects = 1.0 # sound effects volume level
+
+[custom]
+# For custom game settings, you should do:
+# [custom.name]
+# # any notes
+# abc  = 1 # try to align these,
+# defg = 2 # and comment them all if you can
